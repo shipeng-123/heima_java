@@ -29,6 +29,7 @@ public class demo8 {
             }
         });
         System.out.println(Arrays.toString(array2));
-        String[] array3 = list.stream().toArray(value -> new String[value]);
+        String[] array3 = list.stream().toArray(String[]::new);
+        System.out.println(Arrays.toString(array3));
     }
 }
