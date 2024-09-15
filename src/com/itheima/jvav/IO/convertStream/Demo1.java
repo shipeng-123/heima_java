@@ -13,7 +13,7 @@ public class Demo1 {
             System.out.print((char) len);
         }
         isr.close();
-        FileReader fr =new FileReader("/Users/speng/IdeaProjects/heimajava/src/com/itheima/jvav/IO/convertStream/result.txt", Charset.forName("GB18030"));
+        FileReader fr = new FileReader("/Users/speng/IdeaProjects/heimajava/src/com/itheima/jvav/IO/convertStream/result.txt", Charset.forName("GB18030"));
         int len1;
         while ((len1=fr.read())!=-1){
             System.out.print((char) len1);
